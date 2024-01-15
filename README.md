@@ -27,8 +27,7 @@ adb -s emulator-5554 shell am broadcast -a com.sea.ACTION_ONE -n com.sea.broadca
 
 `ADB command`
 ```
- adb -s emulator-5554 shell am broadcast -a com.sea.ACTION_THREE --es key_string go --ei key_integer 100 --ez key_boolean true -n com.sea.broadcastreceiver/.MyReceiver
-
+ adb -s emulator-5554 shell am broadcast -a com.sea.ACTION_TWO --es extra_key two -n com.sea.broadcastreceiver/.MyReceiver
 ```
 <img src="./README_ASSET/Demo_ACTION_TWO.png" width=40% height=40%>
 
